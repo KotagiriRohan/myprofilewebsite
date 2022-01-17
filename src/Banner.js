@@ -1,4 +1,5 @@
 import bannerimg from "./stars.jpg";
+import profileimg from "./profileimg.jpg";
 import React from "react";
 const Banner = () => {
   return (
@@ -9,7 +10,12 @@ const Banner = () => {
         backgroundImage: `url(${bannerimg})`,
         backgroundPosition: "center center",
       }}
-    ></header>
+    >
+      <div className="banner-profileimg">
+        <img src={profileimg} alt="" />
+      </div>
+      <h1>Computer Science Student</h1>
+    </header>
   );
 };
 
