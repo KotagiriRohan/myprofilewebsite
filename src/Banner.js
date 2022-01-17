@@ -1,10 +1,15 @@
-import bannerimg from "./download2.jpg";
-
+import bannerimg from "./stars.jpg";
+import React from "react";
 const Banner = () => {
   return (
-    <div className="banner">
-      <img src={bannerimg} alt="" />
-    </div>
+    <header
+      className="banner"
+      style={{
+        backgroundSize: "cover",
+        backgroundImage: `url(${bannerimg})`,
+        backgroundPosition: "center center",
+      }}
+    ></header>
   );
 };
 
