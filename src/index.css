@@ -46,18 +46,41 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 5px solid white;
 }
-.banner-profileimg {
+/* .banner-profileimg {
   color: white;
-}
+} */
 
-.banner-profileimg img {
+/* .banner-profileimg img {
   width: 200px;
   border-radius: 50%;
   padding: 10px;
-}
+} */
 .banner h1 {
   font-size: 40px;
   font-family: "Segoe UI";
+}
+
+.banner-collegename {
+  color: white;
+  font-size: 24px;
+  font-family: "Courier New";
+  padding-bottom: 20px;
+}
+
+.banner-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 26px;
+  width: 120px;
+}
+
+.banner-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner-icons a:hover {
+  color: rgb(24, 203, 248);
 }
