@@ -16,19 +16,31 @@ const Banner = () => {
       {/* <div className="banner-profileimg">
         <img src={profileimg} alt="" />
       </div> */}
-      <h1>Computer Science Student</h1>
-      <p className="banner-collegename">Manipal University Jaipur</p>
-      <div className="banner-icons">
-        <a href="/">
-          <BsLinkedin />
-        </a>
-        <a href="/">
-          <BsGithub />
-        </a>
-        <a href="/">
-          <SiCodechef />
-        </a>
+      <div className="banner-content">
+        <h1>Computer Science Student</h1>
+        <p className="banner-collegename">Manipal University Jaipur</p>
+        <div className="banner-icons">
+          <div className="banner-icon">
+            <p>LinkedIn</p>
+            <a href="/">
+              <BsLinkedin />
+            </a>
+          </div>
+          <div className="banner-icon">
+            <p>Github</p>
+            <a href="https://github.com/KotagiriRohan">
+              <BsGithub />
+            </a>
+          </div>
+          <div className="banner-icon">
+            <p>CodeChef</p>
+            <a href="/">
+              <SiCodechef />
+            </a>
+          </div>
+        </div>
       </div>
+      <div className="bottom-gradient" />
     </header>
   );
 };
