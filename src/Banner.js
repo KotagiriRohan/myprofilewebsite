@@ -21,20 +21,20 @@ const Banner = () => {
         <p className="banner-collegename">Manipal University Jaipur</p>
         <div className="banner-icons">
           <div className="banner-icon">
-            <p>LinkedIn</p>
             <a href="/">
+              <p>LinkedIn</p>
               <BsLinkedin />
             </a>
           </div>
           <div className="banner-icon">
-            <p>Github</p>
             <a href="https://github.com/KotagiriRohan">
+              <p>Github</p>
               <BsGithub />
             </a>
           </div>
           <div className="banner-icon">
-            <p>CodeChef</p>
             <a href="/">
+              <p>CodeChef</p>
               <SiCodechef />
             </a>
           </div>
