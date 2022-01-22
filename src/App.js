@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import Navbar from "./Navbar";
 import ProjectCards from "./ProjectCards";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <ProjectCards />
+      <Skills />
     </div>
   );
 }
