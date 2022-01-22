@@ -181,7 +181,6 @@
 
 .card:hover {
   width: 360px;
-  height: 440px;
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -248,4 +247,50 @@
 
 .project-button a {
   text-decoration: none;
+}
+
+.skills {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px;
+  width: 180px;
+}
+
+.skill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-orange {
+  background-color: orange;
+}
+
+.skill-blue {
+  background-color: rgb(10, 184, 241);
+}
+
+.skill-green {
+  background-color: greenyellow;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-family: Verdana;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
