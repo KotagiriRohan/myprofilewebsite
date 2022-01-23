@@ -1,4 +1,3 @@
-import bannerimg from "./polygon.jpg";
 // import profileimg from "./profileimg.jpg";
 import React from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
@@ -9,7 +8,9 @@ const Banner = () => {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url(${bannerimg})`,
+        backgroundImage: `url(${
+          process.env.PUBLIC_URL + "./images/polygon.jpg"
+        })`,
         backgroundPosition: "center center",
       }}
     >
