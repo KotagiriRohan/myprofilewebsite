@@ -1,16 +1,25 @@
-import Banner from "./Banner";
 import Navbar from "./Navbar";
 import ProjectCards from "./ProjectCards";
-import Skills from "./Skills";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./Home";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Banner />
-      <ProjectCards />
-      <Skills />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <div className="appcontents">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/projects">
+              <ProjectCards num={0} />
+            </Route>
+          </Switch>
+        </div>
+      </div>
+    </Router>
   );
 }
 
