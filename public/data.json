@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "imagepath": "./images/asl.png",
+            "title": "ASL Detection",
+            "description": "Image Detection project to classify different ASL alphabets using TensorFlow and Mediapipe API.",
+            "language": "Python",
+            "id": 1
+        },
+        {
+            "imagepath": "./images/MRS.jpg",
+            "title": "Recommendation System",
+            "description": "Movie Recommendations using Demographic Filtering and Content Based Filtering in Python.",
+            "language": "Python",
+            "id": 2
+        },
+        {
+            "imagepath": "./images/netflix.jpg",
+            "title": "Netflix Clone",
+            "description": "Single dynamic web page using React JS and TMDB API.",
+            "language": "React JS",
+            "id": 3
+        },
+        {
+            "imagepath": "./images/netflix.jpg",
+            "title": "Netflix Clone",
+            "description": "Single dynamic web page using React JS and TMDB API.",
+            "language": "React JS",
+            "id": 4
+        }
+    ]
+}
