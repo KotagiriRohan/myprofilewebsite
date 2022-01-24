@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Banner from "./Banner";
 import ProjectCards from "./ProjectCards";
 import Skills from "./Skills";
@@ -8,9 +9,9 @@ const Home = () => {
       <Banner />
       <ProjectCards num={3} />
       <div className="project-button">
-        <a href="/">
+        <Link to="/projects">
           <button>Show More</button>
-        </a>
+        </Link>
       </div>
       <div></div>
       <Skills />
