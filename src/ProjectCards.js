@@ -1,4 +1,4 @@
-import { SiPython, SiReact } from "react-icons/si";
+import { SiPython, SiReact, SiCsharp } from "react-icons/si";
 import useFetch from "./useFetch";
 
 const ProjectCards = ({ num }) => {
@@ -16,12 +16,15 @@ const ProjectCards = ({ num }) => {
           data.length > 0 &&
           data.map((project) => (
             <div className="card" key={project.id}>
-              <img src={process.env.PUBLIC_URL + project.imagepath} alt="" />
+              <a href={project.url}>
+                <img src={process.env.PUBLIC_URL + project.imagepath} alt="" />
+              </a>
               <div className="card-title">{project.title}</div>
               <div className="card-desc">{project.description}</div>
               <div className="card-projectlang">
                 {project.language === "Python" && <SiPython />}
                 {project.language === "React JS" && <SiReact />}
+                {project.language === "C#" && <SiCsharp />}
                 <p>{project.language}</p>
               </div>
             </div>
