@@ -7,13 +7,15 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <div className="appcontents">
           <Switch>
             <Route exact path="/">
+              <Navbar scroll={true} />
               <Home />
             </Route>
             <Route exact path="/projects">
+              <Navbar scroll={false} />
+              <div className="headpadding" />
               <ProjectCards num={0} />
             </Route>
           </Switch>
