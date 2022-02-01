@@ -365,3 +365,30 @@
 .headpadding {
   height: 50px;
 }
+
+footer {
+  height: 150px;
+  background-color: rgba(0, 3, 34, 0.856);
+}
+
+.footer-content {
+  color: white;
+  padding: 20px;
+}
+.footer-links {
+  display: flex;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.footer-links a:hover {
+  color: rgb(150, 148, 148);
+  font-size: 23px;
+}

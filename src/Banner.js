@@ -1,7 +1,7 @@
 // import profileimg from "./profileimg.jpg";
 import React from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { SiCodechef } from "react-icons/si";
+import { FaKaggle } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
 const Banner = () => {
   return (
@@ -23,7 +23,7 @@ const Banner = () => {
         <p className="banner-collegename">Manipal University Jaipur</p>
         <div className="banner-icons">
           <div className="banner-icon">
-            <a href="/">
+            <a href="https://www.linkedin.com/in/rohankotagiri">
               <p>LinkedIn</p>
               <BsLinkedin />
             </a>
@@ -35,9 +35,9 @@ const Banner = () => {
             </a>
           </div>
           <div className="banner-icon">
-            <a href="/">
-              <p>CodeChef</p>
-              <SiCodechef />
+            <a href="https://www.kaggle.com/rohankotagiri">
+              <p>Kaggle</p>
+              <FaKaggle />
             </a>
           </div>
         </div>
