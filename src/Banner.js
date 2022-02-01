@@ -2,6 +2,7 @@
 import React from "react";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { SiCodechef } from "react-icons/si";
+import { FaFileDownload } from "react-icons/fa";
 const Banner = () => {
   return (
     <header
@@ -39,6 +40,11 @@ const Banner = () => {
               <SiCodechef />
             </a>
           </div>
+        </div>
+        <div className="downloadbtn">
+          <a href={`${process.env.PUBLIC_URL + "./rohanresume.pdf"}`}>
+            <FaFileDownload /> Resume Download{" "}
+          </a>
         </div>
       </div>
       <div className="bottom-gradient" />
