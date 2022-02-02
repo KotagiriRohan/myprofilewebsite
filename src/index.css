@@ -392,3 +392,143 @@ footer {
   color: rgb(150, 148, 148);
   font-size: 23px;
 }
+
+.carouselcomp {
+  height: 600px;
+  background-color: black;
+  margin-top: 30px;
+}
+
+.carousel-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.carousel-header h1 {
+  font-size: 40px;
+  font-family: "Segoe UI";
+  color: white;
+}
+
+.container {
+  height: 200px;
+  width: 100px;
+  margin: 0 auto;
+  perspective: 600px;
+  padding: 100px 0;
+}
+.container h1 {
+  color: #000;
+}
+
+.carousel {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  transform-style: preserve-3d;
+  transform: translateZ(-500px);
+  animation: turn 16s linear infinite;
+  animation-play-state: run;
+}
+/* .carousel:hover {
+  animation-play-state: paused;
+} */
+.carousel .panel {
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  top: 50%;
+  margin-top: -50px;
+  left: 12px;
+  border-radius: 5px;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: overlay;
+  text-transform: uppercase;
+}
+.carousel .panel .shadow {
+  margin-top: 40%;
+  color: Black;
+  text-shadow: 1px 1px white, 2px 2px white, 3px 3px white;
+  animation: text 3s ease-in-out infinite alternate;
+}
+.carousel .panel .shadow:hover {
+  position: relative;
+  top: -3px;
+  left: -3px;
+  text-shadow: 1px 1px white, 2px 2px white, 3px 3px white, 4px 4px white,
+    5px 5px white, 6px 6px white;
+}
+
+#panel-1 {
+  transform: rotateY(0deg) translateZ(500px);
+  background-image: linear-gradient(top left, #f9dec9, #f9dec9);
+  box-shadow: inset 5px 5px 10px #f9dec9, inset -5px -5px 10px #f9dec9;
+}
+
+#panel-2 {
+  transform: rotateY(40deg) translateZ(500px);
+  background-image: linear-gradient(top left, #99b2dd, #99b2dd);
+  box-shadow: inset 5px 5px 10px #99b2dd, inset -5px -5px 10px #99b2dd;
+}
+
+#panel-3 {
+  transform: rotateY(80deg) translateZ(500px);
+  background-image: linear-gradient(top left, #e9afa3, #e9afa3);
+  box-shadow: inset 5px 5px 10px #e9afa3, inset -5px -5px 10px #e9afa3;
+}
+
+#panel-4 {
+  transform: rotateY(120deg) translateZ(500px);
+  background-image: linear-gradient(top left, #685044, #685044);
+  box-shadow: inset 5px 5px 10px #685044, inset -5px -5px 10px #685044;
+}
+
+#panel-5 {
+  transform: rotateY(160deg) translateZ(500px);
+  background-image: linear-gradient(top left, #59c3c3, #59c3c3);
+  box-shadow: inset 5px 5px 10px #59c3c3, inset -5px -5px 10px #59c3c3;
+}
+
+#panel-6 {
+  transform: rotateY(200deg) translateZ(500px);
+  background-image: linear-gradient(top left, #84a98c, #84a98c);
+  box-shadow: inset 5px 5px 10px #84a98c, inset -5px -5px 10px #84a98c;
+}
+
+#panel-7 {
+  transform: rotateY(240deg) translateZ(500px);
+  background-image: linear-gradient(top left, #cad2c5, #cad2c5);
+  box-shadow: inset 5px 5px 10px #cad2c5, inset -5px -5px 10px #cad2c5;
+}
+
+#panel-8 {
+  transform: rotateY(280deg) translateZ(500px);
+  background-image: linear-gradient(top left, #ebebeb, #ebebeb);
+  box-shadow: inset 5px 5px 10px #ebebeb, inset -5px -5px 10px #ebebeb;
+}
+
+#panel-9 {
+  transform: rotateY(320deg) translateZ(500px);
+  background-image: linear-gradient(top left, #00cdd4, #00cdd4);
+  box-shadow: inset 5px 5px 10px #00cdd4, inset -5px -5px 10px #00cdd4;
+}
+
+@keyframes turn {
+  0% {
+    transform: translateZ(-600px) rotateY(360deg);
+  }
+  100% {
+    transform: translateZ(-600px) rotateY(0deg);
+  }
+}
+@keyframes text {
+  0% {
+    transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
+  }
+}

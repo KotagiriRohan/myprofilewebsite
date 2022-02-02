@@ -45,18 +45,20 @@ const Navbar = ({ scroll }) => {
             </div>
             <div className="dropdown-content">
               <Link to="/">Home</Link>
-              <a href="/">About</a>
+              <a href={`${process.env.PUBLIC_URL + "./rohanresume.pdf"}`}>
+                Resume
+              </a>
               <Link to="/projects">Projects</Link>
-              <a href="/">Drawings</a>
             </div>
           </div>
         )}
         {!dropdown && (
           <div className="nav-bar-links">
             <Link to="/">Home</Link>
-            <a href="/">About</a>
+            <a href={`${process.env.PUBLIC_URL + "./rohanresume.pdf"}`}>
+              Resume
+            </a>
             <Link to="/projects">Projects</Link>
-            <a href="/">Drawings</a>
           </div>
         )}
       </div>

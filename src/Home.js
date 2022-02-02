@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Banner from "./Banner";
+import Carousel from "./Carousel";
 import ProjectCards from "./ProjectCards";
 import Skills from "./Skills";
 
@@ -15,6 +16,7 @@ const Home = () => {
       </div>
       <div></div>
       <Skills />
+      <Carousel />
     </div>
   );
 };
