@@ -8,6 +8,10 @@ const Home = () => {
   return (
     <div>
       <Banner />
+      <div className="carousel-header">
+        <h1>Drawings</h1>
+      </div>
+      <Carousel />
       <ProjectCards num={3} />
       <div className="project-button">
         <Link to="/projects">
@@ -16,7 +20,6 @@ const Home = () => {
       </div>
       <div></div>
       <Skills />
-      <Carousel />
     </div>
   );
 };

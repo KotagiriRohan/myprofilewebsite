@@ -3,18 +3,18 @@ import React from "react";
 const Carousel = () => {
   return (
     <div className="carouselcomp">
-      <div className="carousel-header">
-        <h1>Drawings</h1>
-      </div>
+      {/* <div className="carousel-header">
+        <p>Drawings</p>
+      </div> */}
       <div class="container">
         <div class="carousel">
           <div
             id="panel-1"
             class="panel"
             style={{
-              backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
-            )`,
+              backgroundImage: `url( ${
+                process.env.PUBLIC_URL + "./images/drawing1.jpg"
+              })`,
             }}
           ></div>
           <div
@@ -22,7 +22,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing2.jpg"}
             )`,
             }}
           ></div>
@@ -31,7 +31,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing3.jpg"}
             )`,
             }}
           ></div>
@@ -40,7 +40,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing4.jpg"}
             )`,
             }}
           ></div>
@@ -49,7 +49,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing5.jpg"}
             )`,
             }}
           ></div>
@@ -58,7 +58,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing6.jpg"}
             )`,
             }}
           ></div>
@@ -67,7 +67,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing7.jpg"}
             )`,
             }}
           ></div>
@@ -76,7 +76,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing8.jpg"}
             )`,
             }}
           ></div>
@@ -85,7 +85,7 @@ const Carousel = () => {
             class="panel"
             style={{
               backgroundImage: `url(
-              "http://cdn.flipboard.com/dev_O/topics/exercise-157321849/large.jpg"
+                ${process.env.PUBLIC_URL + "./images/drawing9.jpg"}
             )`,
             }}
           ></div>
