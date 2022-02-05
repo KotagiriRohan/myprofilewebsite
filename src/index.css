@@ -395,7 +395,7 @@ footer {
 
 .carouselcomp {
   height: 600px;
-  background-color: black;
+  /* background-color: black; */
   margin-top: 30px;
 }
 
@@ -445,47 +445,47 @@ footer {
 
 #panel-1 {
   transform: rotateY(0deg) translateZ(800px);
-  background-image: linear-gradient(top left, #f9dec9, #f9dec9);
+  background-image: linear-gradient(to right, #f9dec9, #f9dec9);
 }
 
 #panel-2 {
   transform: rotateY(40deg) translateZ(800px);
-  background-image: linear-gradient(top left, #99b2dd, #99b2dd);
+  background-image: linear-gradient(to right, #99b2dd, #99b2dd);
 }
 
 #panel-3 {
   transform: rotateY(80deg) translateZ(800px);
-  background-image: linear-gradient(top left, #e9afa3, #e9afa3);
+  background-image: linear-gradient(to right, #e9afa3, #e9afa3);
 }
 
 #panel-4 {
   transform: rotateY(120deg) translateZ(800px);
-  background-image: linear-gradient(top left, #685044, #685044);
+  background-image: linear-gradient(to right, #685044, #685044);
 }
 
 #panel-5 {
   transform: rotateY(160deg) translateZ(800px);
-  background-image: linear-gradient(top left, #59c3c3, #59c3c3);
+  background-image: linear-gradient(to right, #59c3c3, #59c3c3);
 }
 
 #panel-6 {
   transform: rotateY(200deg) translateZ(800px);
-  background-image: linear-gradient(top left, #84a98c, #84a98c);
+  background-image: linear-gradient(to right, #84a98c, #84a98c);
 }
 
 #panel-7 {
   transform: rotateY(240deg) translateZ(800px);
-  background-image: linear-gradient(top left, #cad2c5, #cad2c5);
+  background-image: linear-gradient(to right, #cad2c5, #cad2c5);
 }
 
 #panel-8 {
   transform: rotateY(280deg) translateZ(800px);
-  background-image: linear-gradient(top left, #ebebeb, #ebebeb);
+  background-image: linear-gradient(to right, #ebebeb, #ebebeb);
 }
 
 #panel-9 {
   transform: rotateY(320deg) translateZ(800px);
-  background-image: linear-gradient(top left, #00cdd4, #00cdd4);
+  background-image: linear-gradient(to right, #00cdd4, #00cdd4);
 }
 
 @keyframes turn {
@@ -503,4 +503,8 @@ footer {
   100% {
     transform: rotateZ(10deg);
   }
+}
+
+.resume p {
+  padding: 7px;
 }

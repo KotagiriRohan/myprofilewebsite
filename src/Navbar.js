@@ -45,9 +45,7 @@ const Navbar = ({ scroll }) => {
             </div>
             <div className="dropdown-content">
               <Link to="/">Home</Link>
-              <a href={`${process.env.PUBLIC_URL + "./rohanresume.pdf"}`}>
-                Resume
-              </a>
+              <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
             </div>
           </div>
@@ -55,9 +53,7 @@ const Navbar = ({ scroll }) => {
         {!dropdown && (
           <div className="nav-bar-links">
             <Link to="/">Home</Link>
-            <a href={`${process.env.PUBLIC_URL + "./rohanresume.pdf"}`}>
-              Resume
-            </a>
+            <Link to="/resume">Resume</Link>
             <Link to="/projects">Projects</Link>
           </div>
         )}
