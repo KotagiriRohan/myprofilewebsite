@@ -1,0 +1,85 @@
+{
+    "projects": [
+        {
+            "imagepath": "./images/asl.png",
+            "title": "ASL Detection",
+            "description": "Image Detection project to classify different ASL alphabets using TensorFlow and Mediapipe API.",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/American-Sign-Language-Detection",
+            "id": 1
+        },
+        {
+            "imagepath": "./images/MRS.jpg",
+            "title": "Recommendation System",
+            "description": "Movie Recommendations using Demographic Filtering and Content Based Filtering in Python.",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/Recommendation_Engine",
+            "id": 2
+        },
+        {
+            "imagepath": "./images/netflix.jpg",
+            "title": "Netflix Clone",
+            "description": "Single dynamic web page using React JS and TMDB API.",
+            "language": "React JS",
+            "url": "https://github.com/KotagiriRohan/Netflix-Clone",
+            "id": 3
+        },
+        {
+            "imagepath": "./images/digitrecogn.jpg",
+            "title": "Digit Recognition",
+            "description": "Recognizing digits using transfer learning and deployed on streamlit canvas",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/Digit_Recognition",
+            "id": 4
+        },
+        {
+            "imagepath": "./images/imageseg.png",
+            "title": "Image Segmentation",
+            "description": "Image Segmentation ML using Pretrained Mask-RCNN of Object Detection.",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/Image-Segmentation-ML",
+            "id": 5
+        },
+        {
+            "imagepath": "./images/poolgame.jpeg",
+            "title": "POOL GAME",
+            "description": "A billards game made with the help of UnityEngine and models made with Blender.",
+            "language": "C#",
+            "url": "https://github.com/KotagiriRohan/POOL-GAME",
+            "id": 6
+        },
+        {
+            "imagepath": "./images/facetrack.png",
+            "title": "Face Tracking",
+            "description": "Python code using OpenCV and trannied ML model to track faces in the webcam feed.",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/Face-Detection",
+            "id": 7
+        },
+        {
+            "imagepath": "./images/motiontrack.png",
+            "title": "Motion Tracking",
+            "description": "Python code using OpenCV to track motion in the webcam feed.",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/Motion-Tracking",
+            "id": 8
+        },
+        {
+            "imagepath": "./images/pose.png",
+            "title": "Face,Body and Pose Detection",
+            "description": "Python code using OpenCV and mediapipe to detect the body posture and face movement",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/Face-body-and-pose-detection",
+            "id": 9
+        },
+        
+        {
+            "imagepath": "./images/djangoObjectDetection.jpg",
+            "title": "Object Detection Web Page",
+            "description": "Object Detection using a per trained classifier using Django.",
+            "language": "Python",
+            "url": "https://github.com/KotagiriRohan/Django-Webapp-for-ObjectDetection",
+            "id": 10
+        }
+    ]
+}
