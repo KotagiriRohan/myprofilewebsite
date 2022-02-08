@@ -2,7 +2,7 @@
   "name": "myprofilewebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KotagiriRohan.github.io",
+  "homepage": "https://KotagiriRohan.github.io/myprofilewebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -12,7 +12,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "5.0.0",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.3"
