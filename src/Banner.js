@@ -42,7 +42,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="downloadbtn">
-          <a href={`${process.env.PUBLIC_URL + "./rohanresume.pdf"}`}>
+          <a href={`${process.env.PUBLIC_URL + "/rohanresume.pdf"}`}>
             <FaFileDownload /> Resume Download{" "}
           </a>
         </div>
