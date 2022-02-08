@@ -8,7 +8,7 @@ const useFetch = (num) => {
   useEffect(() => {
     const abortCont = new AbortController();
 
-    fetch("data.json", {
+    fetch(process.env.PUBLIC_URL + "/data.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",

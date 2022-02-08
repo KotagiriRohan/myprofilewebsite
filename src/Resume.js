@@ -21,7 +21,7 @@ const Resume = () => {
             <div className="w3-white w3-text-grey w3-card-4">
               <div className="w3-display-container">
                 <img
-                  src={process.env.PUBLIC_URL + "images/resumeimg.jpg"}
+                  src={process.env.PUBLIC_URL + "/images/resumeimg.jpg"}
                   style={{ width: "100%" }}
                   alt="Avatar"
                 />

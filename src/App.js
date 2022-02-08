@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import ProjectCards from "./ProjectCards";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Footer from "./Footer";
 import Resume from "./Resume";

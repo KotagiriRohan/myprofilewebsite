@@ -10,7 +10,7 @@ const Banner = () => {
       style={{
         backgroundSize: "cover",
         backgroundImage: `url(${
-          process.env.PUBLIC_URL + "./images/polygon.jpg"
+          process.env.PUBLIC_URL + "/images/polygon.jpg"
         })`,
         backgroundPosition: "center center",
       }}
